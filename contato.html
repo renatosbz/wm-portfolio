@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Entre em contato comigo</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="description" content="Contato">
+    </head>
+    <body>
+        <form action="submit_form.php" method="post">
+            <h2>Contact Us</h2>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+        
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+        
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+        
+            <input type="submit" value="Enviar">
+        </form>
+        <footer>
+            <a href="index.html">Voltar à página principal</a>
+          </footer>
+    </body>
+</html>

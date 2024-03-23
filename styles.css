@@ -1,0 +1,97 @@
+body {
+    background-color: #e7e1cb;
+    font-family: 'Merriweather', sans-serif; 
+    color: #424247; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    color: #424247;
+    padding: 20px; 
+    text-align: center;
+}
+
+.custom-section {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav section a{
+    text-decoration: none;
+    color: #424247; 
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #e7e1cb; 
+    color: #424247; 
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #424247; 
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.small-image {
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
